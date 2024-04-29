@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  padding: 0 160px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffc801;
+}
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: small;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #000000;
+  color: white;
+  background-color: #000000;
+}
+
+.navbar a:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: #000000;
+}
+.navbar h2 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 160px;
+}
+
+.content_home img {
+  width: 500px;
+  height: 400px;
+}
+
+.content_title {
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px 0 0;
+  justify-content: center;
+}
+
+.content_title h3 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content_display {
+  display: grid;
+  padding: 60px 160px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.content_display a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  height: 400px;
+  font-size: small;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 8px 10px rgba(35, 50, 80, 0.08);
+  background-color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card_text {
+  padding: 0 10px;
+}
+
+.card_text p {
+  color: #3e3a40;
+}
+
+.card_author {
+  display: flex;
+  align-items: center;
+}
+
+.card_avatar {
+  height: 38px;
+  width: 38px;
+  margin-right: 14px;
+  border-radius: 19px;
+  border: 2px solid #000000;
+  background-color: white;
+}
+
+.card_author p {
+  color: #5f5b62;
+}
+
+footer {
+  height: 100px;
+  padding: 20px 0;
+  text-align: center;
+  justify-content: center;
+  background-color: #ffc801;
+}
